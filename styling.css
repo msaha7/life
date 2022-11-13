@@ -1,0 +1,173 @@
+.wip{
+    /* Container for bill title and description */
+    text-align: left;
+    /* font-size: 1vw; This needs to be played around with... */
+    margin-left: 4vw; 
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.start_button{
+    position: absolute;
+}
+
+.bg_bill_content{
+    margin: 0;
+    right: 5%;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+
+    text-align: left;
+    font-size: 1.15vw;
+
+}
+
+.end_page_content{
+    width: 80%;
+    position: absolute;
+    text-align: center;
+
+}
+
+.bg{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* width: 80%; */
+    padding: 20px;
+    /* text-align: center; */
+}
+
+
+
+.intro h2{
+    font-size: 2vw;
+}
+
+.blur_box{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.intro h1{
+    font-size: 5vw;
+}
+
+.intro{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 80%;
+    top: 40%;
+    padding-bottom: 4%;
+}
+#start_page_img{
+    /* position: absolute; */
+    background-image: url("/Creative_Research_Proj/imgs/us-capitol-istock.jpg");
+    height: 50vw;
+     /* width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page_content{
+    position: absolute;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    display: inline-grid;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+
+#bill_q_page_img{
+    position: absolute;
+    background-image: url("/Creative_Research_Proj/imgs/congressional_floor.jpg");
+    height: 50vw;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.canvas_content{
+    height: 500px;
+    width: 500px;
+}
+.vote_button_content{
+    /* display: inline-grid; */
+    position: relative;
+    top: 25%;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+
+}
+.voting_yea{
+    margin-right: 2%;
+}
+.canvas_t{
+    visibility: visible;
+    width: 500px;
+    display: block;
+    background-color: aliceblue;
+}
+
+.next_button_content{
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    height: 10%;
+    width: 18%;
+    z-index: 5;
+}
+
+.next_button{
+    content: url("./imgs/gavel_PNG30.png");
+    transform: rotate(15deg);
+    width: 100%;
+    height: 100%;
+}
+
+.next_button:hover{
+    transform: rotate(0deg);
+}
+
+
+.page_content_bottom{
+    /* background-color: burlywood; */
+    position: relative;
+}
+.page_content_top{
+    /* background-color:firebrick; */
+}
+
+.graphics_container{
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+}
+
+.graphics_canvas{
+    width: 100%;
+    height: 100%;
+}
