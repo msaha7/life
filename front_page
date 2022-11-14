@@ -1,14 +1,15 @@
 <html>
   <head>
-  <title></title>
+    <title></title>
   </head>
   <body>
-    <img scr = ""
+    <img scr = "">
     
+    <p>Press <a href="">START</a> to begin. <p>    
     <style>
     
     </style>
     
-   </body>
+  </body>
    
-   </html>
+</html>
