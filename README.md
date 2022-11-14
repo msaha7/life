@@ -1,4 +1,4 @@
-# How are U.S citizens in so much debt
+# life simulator
 
 <h1> yee </h1>
 <a href = "ghana.html" > Introduction </a>
